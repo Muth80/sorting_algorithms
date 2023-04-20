@@ -35,6 +35,9 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t *node1, listint_t *node2);
+int partition(int *array, int lo, int hi, size_t size);
+void q_sort(int *array, int lo, int hi, size_t size);
+void swap(int *a, int *b);
 
 /* Helper Functions */
 void print_array(const int *array, size_t size);
