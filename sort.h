@@ -39,6 +39,7 @@ int partition(int *array, int lo, int hi, size_t size);
 void q_sort(int *array, int lo, int hi, size_t size);
 void swap(int *a, int *b);
 
+
 /* Helper Functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
