@@ -38,6 +38,11 @@ void swap_nodes(listint_t *node1, listint_t *node2);
 int partition(int *array, int lo, int hi, size_t size);
 void q_sort(int *array, int lo, int hi, size_t size);
 void swap(int *a, int *b);
+void copy_sorted_array(int *sorted_array, int *array, size_t size);
+void fill_sorted_array(int *array, size_t size, int *sorted_array, int *count_array);
+void accumulate_count_array(int *count_array, int count_size);
+void build_count_array(int *array, size_t size, int *count_array, int count_size);
+void initialize_count_array(int *count_array, int size);
 
 
 /* Helper Functions */
